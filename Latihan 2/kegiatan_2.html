@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="CS/kegiatan_2.css">
+</head>
+<body>
+    <header>
+
+            <nav>
+                <ul>
+                    <li><a href="kegiatan_1.html">kegiatan_1</a></li>
+                    <li><a href="kegiatan_2.html">kegiatan_2</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form id="registrationForm">
+        <h1>Formulir Pendaftaran</h1>
+    
+        <label for="name">Nama:</label>
+        <input type="text" id="name" required>
+        <span class="error" id="nameError" style="display:none;">Nama tidak boleh kosong!</span>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <span class="error" id="emailError" style="display:none;">Email tidak boleh kosong!</span>
+        <span class="error" id="emailFormatError" style="display:none;">Email tidak valid! Pastikan format email benar.</span>
+    
+        <label for="address">Alamat Lengkap:</label>
+        <input type="text" id="address" required>
+        <span class="error" id="addressError" style="display:none;">Alamat lengkap tidak boleh kosong!</span>
+    
+        <button type="button" onclick="validateForm()">Daftar</button>
+        <div id="successMessage" class="success-message"></div>
+    </form>    
+
+    <script src="JS/kegiatan_2.js"></script>
+</body>
+</html>
