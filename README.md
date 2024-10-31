@@ -1,4 +1,3 @@
-tugas praktikum 
 ## Tugas Praktikum
 Latihan = codelab
 
