@@ -1,3 +1,6 @@
-tugas praktikum \n
-latihan = codelab \n
-tugas = demo \n
+tugas praktikum 
+## Tugas Praktikum
+Latihan = codelab
+
+## Tugas
+Tugas = demo
