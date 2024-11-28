@@ -7,14 +7,14 @@ require 'src/Hewan.php';
 use Project\Kucing;
 use Project\Burung;
 
-// Membuat instance kucing
-$kucing = new Kucing("Kitty", "Felidae");
+
+$kucing = new Kucing("Kitty", "Felidae",);
 echo $kucing->bergerak() . "\n";
 echo $kucing->buatSuara("meong") . "\n";
-echo $kucing . "\n"; // Magic method __toString
+echo $kucing . "\n\n"; 
 
-// Membuat instance burung
+
 $burung = new Burung("Tweety", "Aves");
 echo $burung->bergerak() . "\n";
 echo $burung->buatSuara("kuku-ruyuuuuuuuuuuuu.uuk.uk.uk") . "\n";
-echo $burung . "\n"; // Magic method __toString
+echo $burung . "\n"; 
