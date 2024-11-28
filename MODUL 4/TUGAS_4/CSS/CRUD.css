@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('assets/background.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    color: #f0f0f0; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+table th {
+    background-color: #6d6060;
+}
+.search-container, .form-container {
+    margin-bottom: 20px;
+}
+.search-container input[type="text"], 
+.form-container input[type="text"] {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.search-container button, 
+.form-container button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search-container button:hover, 
+.form-container button:hover {
+    background-color: #0056b3;
+}
+/* Style for tabs */
+.tabs {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.tabs div {
+    padding: 10px 20px;
+    background-color: #424040;
+    margin-right: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.tabs div.active {
+    background-color: #007BFF;
+    color: white;
+}
+.tab-content {
+    display: none;
+}
+.tab-content.active {
+    display: block;
+}
+/* Header and Footer Styles */
+
+header {
+    background-color: rgba(30, 30, 30, 0.9); 
+    padding: 20px;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f0b459; 
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffffff; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 27px;
+    background: rgba(0, 0, 0, 0.85); 
+    border-radius: 20px;
+    color: #f0f0f0;
+}
+.container-mm {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 27px;
+    background: rgba(0, 0, 0, 0.8);  
+    border-radius: 20px;
+    color: #f0f0f0; 
+}
+
+footer {
+    background-color: rgba(30, 30, 30, 0.9); 
+    color: #f0b459;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
